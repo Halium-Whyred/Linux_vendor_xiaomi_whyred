@@ -838,3 +838,4 @@ PRODUCT_PACKAGES += \
     imssettings \
     com.qti.location.sdk \
     qcrilhook
+    libgpustats \
