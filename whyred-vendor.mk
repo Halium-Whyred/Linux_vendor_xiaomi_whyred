@@ -1688,22 +1688,22 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
-    QtiSystemService \
-    QtiTelephonyService \
-    WfdService \
-    datastatusnotification \
-    embms \
-    ims \
-    imssettings \
-    uceShimService \
-    CNEService \
-    dpmserviceapp \
-    qcrilmsgtunnel \
-    FingerprintExtensionService \
-    PowerOffAlarm \
-    QFingerprintService \
-    SVIService \
-    TimeService \
-    colorservice \
-    com.qti.snapdragon.sdk.display \
-    qcrilhook
+#    QtiSystemService \
+#    QtiTelephonyService \
+#    WfdService \
+#    datastatusnotification \
+#    embms \
+#    ims \
+#    imssettings \
+#    uceShimService \
+#    CNEService \
+#    dpmserviceapp \
+#    qcrilmsgtunnel \
+#    FingerprintExtensionService \
+#    PowerOffAlarm \
+#    QFingerprintService \
+#    SVIService \
+#    TimeService \
+#    colorservice \
+    com.qti.snapdragon.sdk.display
+#    qcrilhook
