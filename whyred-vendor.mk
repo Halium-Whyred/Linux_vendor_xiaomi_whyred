@@ -1687,7 +1687,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
-    libloc_api_v02 \
+    libloc_api_v02
 #     QtiSystemService \
 #     QtiTelephonyService \
 #     WfdService \
@@ -1705,5 +1705,5 @@ PRODUCT_PACKAGES += \
 #     SVIService \
 #     TimeService \
 #     colorservice \
-    com.qti.snapdragon.sdk.display \
-    qcrilhook
+#     com.qti.snapdragon.sdk.display \
+#     qcrilhook
