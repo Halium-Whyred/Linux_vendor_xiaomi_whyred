@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
     vendor/xiaomi/whyred/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
     vendor/xiaomi/whyred/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
-    vendor/xiaomi/whyred/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+#     vendor/xiaomi/whyred/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/xiaomi/whyred/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/xiaomi/whyred/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/whyred/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
@@ -112,8 +112,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
+#     vendor/xiaomi/whyred/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
+#     vendor/xiaomi/whyred/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
     vendor/xiaomi/whyred/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/xiaomi/whyred/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
@@ -1309,7 +1309,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    vendor.qti.hardware.fm@1.0 \
+#     vendor.qti.hardware.fm@1.0 \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
@@ -1321,15 +1321,15 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.server@2.0 \
     com.quicinc.cne.server@2.1 \
     com.quicinc.cne.server@2.2 \
-    QtiTelephonyService \
-    datastatusnotification \
-    embms \
+#     QtiTelephonyService \
+#     datastatusnotification \
+#     embms \
     CNEService \
     dpmserviceapp \
-    qcrilmsgtunnel \
-    ims \
-    imssettings \
-    FingerprintExtensionService \
-    PowerOffAlarm \
-    TimeService \
-    qcrilhook
+#     qcrilmsgtunnel \
+#     ims \
+#     imssettings \
+#     FingerprintExtensionService \
+#     PowerOffAlarm \
+#     TimeService \
+#     qcrilhook
