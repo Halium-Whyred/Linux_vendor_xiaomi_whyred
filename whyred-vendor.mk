@@ -1810,27 +1810,27 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
-    CallFeaturesSetting \
-    QtiSystemService \
-    QtiTelephonyService \
-    WfdService \
-    datastatusnotification \
+#     CallFeaturesSetting \
+#     QtiSystemService \
+#     QtiTelephonyService \
+#     WfdService \
+#     datastatusnotification \
     embms \
     uceShimService \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
-    qcrilmsgtunnel \
-    ims \
-    CABLService \
-    PowerOffAlarm \
-    QDMA-UI \
-    QDMA \
-    QFingerprintService \
-    Qmmi \
-    SVIService \
-    SecProtect \
-    TimeService \
-    colorservice \
-    com.qti.snapdragon.sdk.display \
-    qcrilhook
+#     qcrilmsgtunnel \
+#     ims \
+#     CABLService \
+#     PowerOffAlarm \
+#     QDMA-UI \
+#     QDMA \
+#     QFingerprintService \
+#     Qmmi \
+#     SVIService \
+#     SecProtect \
+#     TimeService \
+#     colorservice \
+    com.qti.snapdragon.sdk.display
+#     qcrilhook
